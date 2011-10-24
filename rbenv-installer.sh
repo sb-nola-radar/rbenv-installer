@@ -17,12 +17,12 @@ fi
 
 # Install rbenv:
 if [ ! -f $RBENV_ROOT/bin/rbenv ] ; then
-  git clone git://github.com/sstephenson/rbenv.git $RBENV_ROOT
+  git clone https://github.com/sstephenson/rbenv.git $RBENV_ROOT
 fi
 
 # Install rbenv plugins:
 if [ ! -d $RBENV_ROOT/plugins/rbenv-vars ] ; then
-  git clone git://github.com/sstephenson/rbenv-vars.git $RBENV_ROOT/plugins/rbenv-vars
+  git clone https://github.com/sstephenson/rbenv-vars.git $RBENV_ROOT/plugins/rbenv-vars
 fi
 
 # Add rbenv to the path:
